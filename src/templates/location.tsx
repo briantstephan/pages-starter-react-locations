@@ -179,6 +179,7 @@ const Location: Template<TemplateRenderProps> = ({
     <>
       <PageLayout>
         <Banner name={name} address={address} />
+        <h1>hello</h1>
         <div className="centered-container">
           <BreadCrumbs
             breadcrumbs={dm_directoryParents}
